@@ -8,3 +8,7 @@ class Solution {
         
         }
     }
+without third variable
+arr[k - 1] = arr[k - 1] + arr[n - k];
+arr[n - k] = arr[k - 1] - arr[n - k];
+arr[k - 1] = arr[k - 1] - arr[n - k];
