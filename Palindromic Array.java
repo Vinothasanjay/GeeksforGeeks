@@ -1,6 +1,6 @@
 
 class Solution {
-    public static int palinArray(int[] arr) {
+    public static boolean palinArray(int[] arr) {
        
         for(int num:arr){
             String s=String.valueOf(num);
@@ -8,13 +8,13 @@ class Solution {
             int j=s.length()-1;
             while(i<j){
                 if(s.charAt(i)!=s.charAt(j)){
-                    return 0;
+                    return false;
                 }
                 i++;
                 j--;
             }
         }
         
-    return 1;
+    return true;
 }
 }
