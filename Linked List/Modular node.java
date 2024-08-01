@@ -1,6 +1,6 @@
 class Solution {
     public int modularNode(Node head, int k) {
-        ArrayList<Integer> a=new ArrayList<>();
+        
         if(head==null){
             return -1;
         }
